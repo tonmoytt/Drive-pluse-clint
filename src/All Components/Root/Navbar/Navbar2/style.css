@@ -1,0 +1,123 @@
+ #color2 {
+     /* letter-spacing: 1px; */
+     background: linear-gradient(135deg, #ff00d2, #fed90f, #00a2ff, #09f1b8, #ff00d2, #fed90f, #00a2ff, #09f1b8);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-size: 300%, 300%;
+     animation: gradient 4s ease-in-out infinite;
+ }
+
+ @keyframes gradient {
+     0% {
+         background-position: 0% 50%;
+     }
+
+     50% {
+         background-position: 100% 50%;
+     }
+
+     100% {
+         background-position: 0% 50%;
+     }
+ }
+
+ /* border animation */
+ /* border animation */
+ 
+
+ #border-animation{
+    position: absolute;
+    margin-top: 20px;
+ 
+    overflow: hidden;
+    color: #1ee8e8;
+    padding: 13px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    box-shadow: 0 20px 50px rgba(10, 190, 203, 0.05);
+}
+#border-animation::before{
+    position: absolute;
+    width: 50%;
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    content: '';
+    background: rgba(29, 154, 227, 0.1);;
+}
+#border-animation span:nth-child(1){
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #002b9d, #34ffea);
+    animation: animate1 2s linear infinite;
+}
+@keyframes animate1{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+
+#border-animation span:nth-child(2){
+    position: absolute;
+    width: 2%;
+    height: 100px;
+    top: 0;
+    right: 0;
+    background: linear-gradient(to bottom, #002b9d, #34ffea);
+    animation: animate2 2s linear infinite;
+    animation-delay: 1s;
+}
+@keyframes animate2{
+    0%{
+        transform: translatey(-100%);
+    }
+    100%{
+        transform: translatey(100%);
+    }
+}
+
+
+#border-animation span:nth-child(3){
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to left, #ec5656, #20d6dc);
+    animation: animate3 2s linear infinite;
+} 
+@keyframes animate3{
+    0%{
+        transform: translatex(100%);
+    }
+    100%{
+        transform: translatex(-100%);
+    }
+}
+
+#border-animation span:nth-child(4){
+    position: absolute;
+    width: 2%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top, #9d008b, #34ff52);
+    animation: animate4 2s linear infinite;
+    animation-delay: 1s;
+}
+@keyframes animate4{
+    0%{
+        transform: translatey(100%);
+    }
+    100%{
+        transform: translatey(-100%);
+    }
+}
