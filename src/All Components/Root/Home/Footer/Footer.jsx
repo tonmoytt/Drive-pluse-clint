@@ -17,7 +17,7 @@ const Footer = () => {
 
 
                     <div className="style-css ">
-                        <h2 data-text="DrivePluse" className="style-css-two text-4xl  ml-32 md:ml-24">DrivePluse</h2>
+                        <h2 data-text="DrivePluse" className="style-css-two text-4xl  ml-32 md:ml-24 lg:ml-8">DrivePluse</h2>
                     </div>
 
                     <div className="flex gap-3 mt-4 ml-6 md:ml-0 lg:ml-0">
