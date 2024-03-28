@@ -1,0 +1,55 @@
+
+.style-css {
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100hv;
+
+}
+ 
+.style-css-two {
+     
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: linear-gradient(#31f3ef, #e326cd);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 0.1vw black;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.style-css-two::before {
+    content: attr(data-text);
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(#db1a1a, #091bdd);
+    -webkit-background-clip: text;
+    color: transparent;
+    left: 0;
+    top: 0;
+    background: linear-gradient(to left #8831f3, #14c944);
+    -webkit-text-stroke: 0vw #333;
+    overflow: hidden;
+    animation: ani 4s linear infinite;
+    border-right: 3px solid #008979;
+}
+
+@keyframes ani {
+
+    0%,
+    10%,
+    100% {
+        width: 0%;
+         
+    }
+
+    50%,
+    70% {
+        width: 100%;
+        
+    }
+}

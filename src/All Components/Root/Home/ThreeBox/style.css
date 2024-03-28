@@ -1,0 +1,22 @@
+#background{
+    background-image: url(/src/assets/Images/wallpaperflare.com_wallpaper.jpg);
+   
+}
+
+
+
+#card1 :hover{
+padding-bottom: 28px;
+ 
+transition: 2s;
+}
+#card2 :hover{
+padding-bottom: 28px;
+ 
+transition: 2s;
+}
+#card3 :hover{
+padding-bottom: 28px;
+
+transition: 2s;
+}

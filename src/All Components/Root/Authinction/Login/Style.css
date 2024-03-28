@@ -1,0 +1,26 @@
+#color {
+    background: linear-gradient(#31f3ef, #e326cd);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.btn-1 {
+
+    background: linear-gradient(145deg, magenta 0%, cyan 100%);
+    border: none;
+
+}
+
+.btn-1:hover {
+
+    background: linear-gradient(145deg, cyan 0%, magenta 100%);
+}
+
+.picture {
+    z-index: 2;
+}
+
+#shadow-maker {
+    box-shadow: 0px 0px 20px #16a1dc;
+    filter: drop-shadow( 0px  0px 20px #022861);
+}

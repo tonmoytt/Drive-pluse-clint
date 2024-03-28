@@ -1,22 +1,40 @@
 import "./style.css"
 import logo from "./../../../assets/Images/Drive plus logo.webp"
-import Navbar2 from "./Navbar2/Navbar2";
 import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { AuthConnect } from "../Authinction/Authinction";
 
 const Navbar = () => {
+
+    const {user} = useContext(AuthConnect)
+
     const Navlink = <>
-        <div className="text-white grid md:flex lg:flex text-lg gap-4 font-semibold"  >
+        <div className="text-white grid md:flex lg:flex text-xl from-neutral-900 gap-4 font-semibold "  >
             <Link to="/"><li id="home"> Home </li></Link>
             <Link to="/about"> <li id="home"> About </li></Link>
             <Link to="/contact"><li id="home" >Contact</li></Link>
             <div className="hidden md:block lg:block border-l-2 border-l-blue-700 "></div>
-            <li id="home" > DashBoard  </li>
+
+            {
+                user ? <>
+                    <div>
+                        <Link to="/dashboard"> <li id="home" > DashBoard  </li></Link>
+                    </div>
+                </>
+                    :
+                    <>
+                        <div>
+                            <Link to="/login"> <li id="home" > Login  </li></Link>
+                        </div>
+                    </>
+            }
+
 
 
         </div>
     </>
     return (
-        <div>
+        <div className="bg-[#062244]">
 
             {/* navbar start */}
             <div className="navbar pt-6">

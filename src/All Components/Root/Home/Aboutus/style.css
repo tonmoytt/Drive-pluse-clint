@@ -1,0 +1,6 @@
+#drive{
+    
+    background: linear-gradient(to right, rgb(121, 188, 239),rgb(40, 83, 224),rgb(233, 34, 230));
+    -webkit-background-clip: text;
+    color: transparent;
+}
