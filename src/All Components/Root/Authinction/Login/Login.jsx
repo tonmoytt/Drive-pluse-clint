@@ -56,15 +56,15 @@ const Login = () => {
             {/* section 2 */}
             <div className=" grid md:grid-cols-2 relative">
                 <div >
-                    <img className=" relative h-[250px] md:h-[750px] lg:h-[740px] w-
+                    <img className=" relative h-[250px] md:h-[750px] lg:h-[640px] w-
                 1/2 blur-[3px] opacity-90" src={login} alt="" />
-                    <div className="absolute ml-4 md:ml-14 -mt-[246px] md:-mt-[700px] lg:-mt-[450px] text-white">
-                        <h1 className="text-3xl md:text-4xl lg:text-6xl font-semibold font-sans"> <span className="text-sky-500">Welcome </span>back!</h1>
-                        <p className="text-base md:text-lg lg:text-[22px] mt-2 text-gray-300 ml-1 max-w-xl">This is a best secure file sharing platform, Upload your  file and make your beautiful day!</p>
+                    <div className="absolute ml-4 md:ml-8 -mt-[246px] md:-mt-[700px] lg:-mt-[450px] text-white">
+                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold font-sans"> <span className="text-sky-500">Welcome </span>back!</h1>
+                        <p className="text-base md:text-lg lg:text-[22px] mt-2 text-gray-300 ml-1 max-w-lg">This is a best secure file sharing platform,<br /> Upload your  file and make your beautiful <br />day!</p>
                     </div>
                 </div>
                 <div>
-                    <img className="w-full  h-[540px] md:h-[749px]" src={background} alt="" />
+                    <img className="w-full  h-[540px] md:h-[649px]" src={background} alt="" />
                 </div>
             </div>
 
@@ -72,7 +72,7 @@ const Login = () => {
 
             {/* login box */}
 
-            <div id="shadow-maker" className="rounded-xl md:rounded-md shrink-0 mx-4 max-w-[290px] md:max-w-[540px] absolute -mt-[650px] md:-mt-[550px] lg:-mt-[600px] md:mx-[130px] lg:mx-[640px] bg-[#062244]">
+            <div id="shadow-maker" className="rounded-xl md:rounded-md shrink-0 mx-4 max-w-[290px] md:max-w-[480px] absolute -mt-[650px] md:-mt-[550px] lg:-mt-[600px] md:mx-[130px] lg:mx-[480px] bg-[#062244]">
                 <form onSubmit={Login} className="card-body">
                     <div className="form-control text-white">
                         <label className="label">
@@ -106,7 +106,7 @@ const Login = () => {
                         </p>
 
                         <div className="flex items-center gap-2 md:gap-6 mt-6">
-                            <div className="text-sky-300 w-[45px] md:w-[145px]">
+                            <div className="text-sky-300 w-[45px] md:w-[115px]">
                                 <hr />
                                 <hr />
                                 <hr />
@@ -114,7 +114,7 @@ const Login = () => {
                             </div>
                             <p className="text-lg md:text-[20px] text-gray-300 font-semibold mx-auto">Continue with</p>
 
-                            <div className="text-sky-300 w-[45px] md:w-[145px]">
+                            <div className="text-sky-300 w-[45px] md:w-[115px]">
                                 <hr className="text-sky-300" />
                                 <hr className="text-sky-300" />
                                 <hr className="text-sky-300" />
@@ -126,12 +126,12 @@ const Login = () => {
                         {/* google and github */}
                         <div className="flex gap-[10px] md:gap-8 mt-4">
                             <div onClick={HandleGoogleLogin} className="flex items-center">
-                                <FcGoogle className="picture h-5 md:h-8 w-5 md:w-8 absolute ml-2   md:ml-6"></FcGoogle>
-                                <button className="border-2 btn-outline btn-error text-center px-7 rounded-lg md:px-[75px] text-lg md:text-[22px] relative py-1 md:py-2">Google</button>
+                                <FcGoogle className="picture h-5 md:h-8 w-5 md:w-8 absolute ml-2   md:ml-4"></FcGoogle>
+                                <button className="border-2 btn-outline btn-error text-center rounded-lg px-7 md:px-[60px] text-lg md:text-[22px] relative py-1 md:py-2">Google</button>
                             </div>
                             <div className="flex items-center">
-                                <GrGithub className="picture h-5 md:h-8 w-5 md:w-8 absolute ml-2   md:ml-6 bg-sky-500 rounded-3xl"></GrGithub>
-                                <button className=" border-2 rounded-lg btn-outline btn-accent px-7 md:px-[75px] text-lg md:text-[20px] relative py-1 md:py-2">Github</button>
+                                <GrGithub className="picture h-5 md:h-8 w-5 md:w-8 absolute ml-2   md:ml-4 bg-sky-500 rounded-3xl"></GrGithub>
+                                <button className=" border-2 rounded-lg btn-outline btn-accent px-7 md:px-[60px] text-lg md:text-[20px] relative py-1 md:py-2">Github</button>
                             </div>
 
                         </div>
