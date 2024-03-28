@@ -6,7 +6,7 @@ const Faq = () => {
             <h1 className="text-gray-300 font-bold text-6xl text-center">FA<span id="drive">Qs</span></h1>
             <p className="text-center text-gray-300  mt-2">Have you any question?</p>
             {/* deisi us according sertor */}
-            <div className="grid md:grid-cols-2">
+            <div className="grid md:grid-cols-2 items-center">
 
                 {/* img */}
                 <div className=" ">
@@ -14,7 +14,7 @@ const Faq = () => {
                 </div>
 
                 {/* checkbox */}
-                <div className="-ml-32 mr-10 mt-20 ">
+                <div className="-ml-0 md:-ml-16 lg:-ml-32 mr-0 md:mr-8 lg:mr-10 mt-20 ">
 
 
                     <div className="collapse text-white border-2 border-sky-400 w-full mb-4">

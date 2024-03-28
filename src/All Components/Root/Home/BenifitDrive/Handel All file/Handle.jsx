@@ -6,7 +6,7 @@ import access from "./../../../../../assets/Images/access.png"
 
 const Handel = () => {
     return (
-        <div className='grid md:grid-cols-2 lg:grid-cols-4 md:mx-10 lg:mx-10 pb-10 gap-6 mt-12 '>
+        <div className='grid md:grid-cols-2 lg:grid-cols-4 mx-5 md:mx-10 lg:mx-10 pb-10 gap-6 mt-12 '>
             {/* box 1 */}
             <div id="box" className="hover:shadow-lg hover:shadow-sky-400  px-4">
                 <h2 className="  text-white">
