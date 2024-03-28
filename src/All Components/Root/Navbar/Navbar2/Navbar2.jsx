@@ -13,7 +13,7 @@ const Navbar2 = () => {
 
             <div className="grid md:grid-cols-2 mt-16 gap-32 md:gap-2 lg:gap-0  justify-between   w-full">
                 {/* first */}
-                <div className="mx-4 md:mx-6 lg:mx-10  mt-0 md:mt-0 lg:mt-10 ">
+                <div className="mx-4 md:mx-6 lg:mx-10  mt-0 md:mt-0 lg:mt-4 ">
                     <div className="flex text-white items-center gap-2 mt-12 md:mt-4 mb-2 md:mb-6">
                         <div className="bg-teal-600  ml-6 md:ml-0 text-emerald-500">
                             <hr className="w-16 bg-teal-600" />
@@ -52,7 +52,7 @@ const Navbar2 = () => {
             {/* model */}
 
             {/* Open the modal using document.getElementById('ID').showModal() method */}
-            <button className="ml-[250px] md:ml-0 -mb-[16px] md:mt-[550px]  " onClick={() => document.getElementById('my_modal_5').showModal()}>
+            <button className="ml-[250px] md:ml-0 -mb-[16px] md:mt-[530px]  " onClick={() => document.getElementById('my_modal_5').showModal()}>
                 <RiVideoLine className=" bg-sky-300 rounded-2xl h-10 md:h-12 lg:h-14 w-10 md:w-12 lg:w-14"></RiVideoLine>
             </button>
             <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">

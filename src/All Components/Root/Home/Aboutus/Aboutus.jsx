@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Aboutus = () => {
     return (
         <div id="background" className="py-10">
-            <div className="mx-4 grid md:grid-cols-2 items-center border-l-8 border-l-gray-950">
+            <div className="mx-4 grid md:grid-cols-2 items-center md:border-l-8 md:border-l-gray-950">
                 {/* image */}
                 <div>
                     <div className="relative">

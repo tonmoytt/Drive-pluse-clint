@@ -8,7 +8,7 @@ const Handel = () => {
     return (
         <div className='grid md:grid-cols-2 lg:grid-cols-4 mx-5 md:mx-10 lg:mx-10 pb-10 gap-6 mt-12 '>
             {/* box 1 */}
-            <div id="box" className="hover:shadow-lg hover:shadow-sky-400  px-4">
+            <div id="box" className="hover:shadow-lg hover:shadow-sky-400  mx-auto">
                 <h2 className="  text-white">
                     <img className='h-24 w-24 rounded-lg  mx-auto' src={file} alt="" />
                     <h1 className='text-2xl font-semibold mt-8 mb-4 text-center '>Share</h1>
@@ -16,7 +16,7 @@ const Handel = () => {
                 </h2>
             </div>
             {/* box 2 */}
-            <div id="box" className="hover:shadow-lg hover:shadow-sky-400 px-4">
+            <div id="box" className="hover:shadow-lg hover:shadow-sky-400 mx-auto">
                 <h2 className="  text-white">
                     <img className='h-24 w-24 rounded-lg  mx-auto' src={collaborate} alt="" />
                     <h1 className='text-2xl font-semibold mt-8 mb-4 text-center'>Collaborate</h1>
@@ -25,7 +25,7 @@ const Handel = () => {
                 </h2>
             </div>
             {/* box 3 */}
-            <div id="box" className="hover:shadow-lg hover:shadow-sky-400 px-4">
+            <div id="box" className="hover:shadow-lg hover:shadow-sky-400 mx-auto">
                 <h2 className="  text-white">
                     <img className='h-24 w-24 rounded-lg  mx-auto' src={cloud} alt="" />
                     <h1 className='text-2xl font-semibold mt-8 mb-4 text-center'>Store</h1>
@@ -35,7 +35,7 @@ const Handel = () => {
                 </h2>
             </div>
             {/* box 4 */}
-            <div id="box" className="hover:shadow-lg hover:shadow-sky-400 px-4">
+            <div id="box" className="hover:shadow-lg hover:shadow-sky-400 mx-auto">
                 <h2 className="  text-white">
                     <img className='h-20 w-20 rounded-lg  mx-auto' src={access} alt="" />
                     <h1 className='text-2xl font-semibold mt-8 mb-4 text-center'>Access</h1>
