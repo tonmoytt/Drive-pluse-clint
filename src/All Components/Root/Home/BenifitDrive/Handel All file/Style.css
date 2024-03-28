@@ -1,7 +1,7 @@
 #box{
     position: relative;
-    width: 320px;
-    height: 400px;
+    width: 270px;
+    height: 360px;
     
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@
     content: '';
     position: absolute;
     width: 170px;
-    height: 140%;
+    height: 120%;
     background: linear-gradient(#03c5e7,#5236f3);
     animation: rotate 8s linear infinite;
 }
