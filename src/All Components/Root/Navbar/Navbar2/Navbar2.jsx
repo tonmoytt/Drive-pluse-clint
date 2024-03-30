@@ -52,7 +52,7 @@ const Navbar2 = () => {
             {/* model */}
 
             {/* Open the modal using document.getElementById('ID').showModal() method */}
-            <button className="ml-[250px] md:ml-0 -mb-[16px] md:mt-[530px]  " onClick={() => document.getElementById('my_modal_5').showModal()}>
+            <button className="ml-[250px] md:ml-0 -mb-[16px] mt-180 md:mt-[550px]  " onClick={() => document.getElementById('my_modal_5').showModal()}>
                 <RiVideoLine className=" bg-sky-300 rounded-2xl h-10 md:h-12 lg:h-14 w-10 md:w-12 lg:w-14"></RiVideoLine>
             </button>
             <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">

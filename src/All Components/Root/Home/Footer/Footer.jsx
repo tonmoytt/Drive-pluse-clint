@@ -16,12 +16,12 @@ const Footer = () => {
                 <div className="mx-auto md:mx-auto lg:mx-24  md:ml-10 ">
 
 
-                    <div className="style-css ml-0 md:ml-4 lg:ml-[30px]">
-                        <h2 data-text="DrivePluse" className="style-css-two text-4xl  ml-32 md:ml-24 lg:">DrivePluse</h2>
+                    <div className="style-css ml-0 md:ml-4 lg:ml-[30px] w-[90px] md:w-[50px]">
+                        <h2 data-text="DrivePluse" className="style-css-two text-4xl  ml-40 md:ml-24 lg:">DrivePluse</h2>
                     </div>
 
-                    <div className="flex gap-3  mt-4 ml-6 md:ml-0 lg:ml-0">
-                        <div>
+                    <div className="flex gap-3  mt-4 mb-10 ml-16 md:ml-0 lg:ml-0">
+                        <div className="">
                             <FaFacebookF className=" w-10 h-10 rounded-full bg-white p-2"></FaFacebookF>
                         </div>
                         {/* second */}
@@ -55,7 +55,7 @@ const Footer = () => {
                     <p className="text-xl mb-4 text-gray-400"> Notification</p>
                 </div>
                 {/* section 2.1 */}
-                <div className="text-white text-center">
+                <div className="text-white text-center mt-6 md:mt-0">
                     <p className=" text-lg md:text-xl lg:text-2xl  uppercase mb-4">LEARN MORE
                     </p>
                     <div className="w-36 mx-auto mb-6">
@@ -67,8 +67,8 @@ const Footer = () => {
                     <p className="text-xl mb-4 text-gray-400"> Dashboard</p>
                 </div>
                 {/* section 2.2 */}
-                <div className="block md:hidden lg:block text-white text-center">
-                    <p className="text-2xl  uppercase mb-4">SUPPORTS
+                <div className="block md:hidden lg:block mt-6 md:mt-0 text-white text-center">
+                    <p className="text-xl  md:text-2xl  uppercase mb-4">SUPPORTS
                     </p>
                     <div className="w-28 mx-auto mb-6">
                         <hr />
