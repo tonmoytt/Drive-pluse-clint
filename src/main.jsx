@@ -13,6 +13,7 @@ import Login from './All Components/Root/Authinction/Login/Login.jsx';
 import Signup from './All Components/Root/Authinction/Signup/Signup.jsx';
 import Authinction from './All Components/Root/Authinction/Authinction.jsx';
 import DashBoard from './All Components/Root/DashBoard/DashBoard.jsx';
+import ContactUs from './All Components/Root/Navbar/ContactUs/ContactUs.jsx';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,11 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About></About>
+
+      },
+      {
+        path: "/contact",
+        element: <ContactUs></ContactUs>
 
       },
       {
