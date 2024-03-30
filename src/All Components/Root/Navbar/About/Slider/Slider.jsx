@@ -24,7 +24,7 @@ const Slider = () => {
             <h1 className="text-white text-center text-3xl font-semibold">Our Team <span className="text-sky-400">Members</span></h1>
 
             {/* slide */}
-            <div className='text-white mx-20'>
+            <div className='text-white mx-2 md:mx-6 lg:mx-20'>
                 <Swiper
                     pagination={{
                         type: 'fraction',
@@ -35,9 +35,9 @@ const Slider = () => {
                 >
                     {/* swipe start */}
                     <SwiperSlide className='text-center'>
-                        <div className="card w-[410px] bg-base-100 mx-auto">
+                        <div className="card w-[270px] md:w-[410px] bg-base-100 mx-auto">
                             <figure>
-                                <img className='rounded-full h-80 w-80' src={tonmoy} alt="Tonmoy" />
+                                <img className='rounded-full h-60 md:h-72 lg:h-80 w-60 md:w-72 lg:w-80' src={tonmoy} alt="Tonmoy" />
                             </figure>
                             <div className="card-body">
                                 <h2 className="card-title text-black text-2xl">Tafsirul Tonmoy</h2>
@@ -59,9 +59,9 @@ const Slider = () => {
                     </SwiperSlide>
                     {/* second  */}
                     <SwiperSlide className='text-center'>
-                        <div className="card w-[410px] bg-base-100 mx-auto">
+                        <div className="card w-[270px] md:w-[410px]  bg-base-100 mx-auto">
                             <figure>
-                                <img className='rounded-full h-80 w-80' src={sayeed} alt="Tonmoy" />
+                                <img className='rounded-full h-60 md:h-72 lg:h-80 w-60 md:w-72 lg:w-80' src={sayeed} alt="Tonmoy" />
                             </figure>
                             <div className="card-body">
                                 <h2 className="card-title text-black text-2xl">Abu Sayeed</h2>
